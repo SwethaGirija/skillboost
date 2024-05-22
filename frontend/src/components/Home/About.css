@@ -1,0 +1,43 @@
+body {
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+  }
+  
+  .about-container {
+    width: 100%; /* Set container width to 100% of viewport */
+    height: 100vh; /* Set container height to 100% of viewport height */
+    padding: 20px;
+    background-image: url('../assets/about.png');
+    background-size: cover;
+    background-position: center;
+    display: flex; /* Use flexbox for centering content */
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center; /* Center content vertically */
+  }
+  
+  .about-title {
+    font-size: 28px;
+    font-weight: bold;
+    color:white;
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for center alignment */
+  }
+  
+  .about-text {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 20px; /* Add padding to create space around the text */
+    border-radius: 50px; /* Add rounded corners */
+    text-align: right;
+    container: 50px; /* Align text to the right side */
+  }
+  
+  
+  .about-text p {
+    margin-bottom: 15px;
+  }
+  

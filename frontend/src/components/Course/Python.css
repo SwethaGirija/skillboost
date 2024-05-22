@@ -1,0 +1,71 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .concept-title {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold; /* Making the title bold for emphasis */
+    transition: font-size 0.3s; /* Adding transition for smooth animation */
+  }
+  
+  .title:hover {
+    font-size: 32px; /* Increasing font size on hover */
+  }
+  
+  .description {
+    font-size: 18px;
+    line-height: 1.6; /* Slightly increasing line height for better readability */
+    text-align: left; /* Aligning text to the left side */
+  }
+  
+  .code-snippet {
+    font-family: Consolas, monospace;
+    font-size: 16px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px; /* Increased margin for better separation */
+    border: 1px solid #ced4da; /* Adding a subtle border for clarity */
+    text-align: left; /* Aligning text to the left side */
+  }
+  .links {
+    display: flex;
+    flex-direction: column; /* Displaying links in a column */
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px; /* Increased margin for better separation */
+    border: 1px solid #ced4da; 
+  }
+  
+  .link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: font-size 0.3s; /* Adding transition for smooth animation */
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Changing link color on hover for better feedback */
+    font-size: 20px; /* Increasing font size on hover */
+  }
+  
+  .concept {
+    margin-bottom: 40px; /* Adding space between each concept */
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Adding a background color for the concept box */
+    text-align: left; /* Aligning text to the left side */
+    transition: transform 0.3s; /* Adding transition for smooth animation */
+  }
+  
+  .concept:hover {
+    transform: scale(1.05); /* Increasing scale on hover for a zoom effect */
+  }
+  

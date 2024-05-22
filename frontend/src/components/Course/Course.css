@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.language-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px; /* Add padding around the language list */
+}
+
+.language-item {
+  text-align: center;
+  flex: 1 0 calc(50% - 20px); /* Adjust width as needed */
+  max-width: calc(50% - 20px); /* Adjust width as needed */
+}
+
+.language-item img {
+  width: 100%; /* Ensure images fill their container */
+  height: auto;
+}
+
+.language-item p {
+  font-size: 10em;
+  font-weight: 300;
+}
